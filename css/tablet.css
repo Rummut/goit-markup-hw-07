@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+.about {
+    padding: 96px 0;
+}
+.about-item:nth-child(3) {
+    margin-bottom: 0;
+}
+.about-list {
+        display: flex;
+            flex-wrap: wrap;
+            gap: 0 24px;
+}
+.about-title {
+    display: block;
+}
+.about-description {
+max-width: 356px;
+}
+
+
+}
+
