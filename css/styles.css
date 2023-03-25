@@ -237,28 +237,12 @@ body {
 }
 /* Service */
 .service {
-  padding-bottom: 120px;
-}
-
-.service-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  margin-bottom: 72px;
-}
-
-.sevrice-list {
-  display: flex;
-  gap: 24px;
-}
-
-.service-item {
+  display: none;
 }
 /* Team */
+
 .team {
-  padding: 120px 0;
+  padding: 96px 0;
   background-color: var(--third-backgrounds-color);
 }
 
@@ -273,12 +257,15 @@ body {
 
 .team-list {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 24px;
 }
 
 .team-item {
 }
 .team-text {
+  max-width: 264px;
   padding: 32px 0;
   text-align: center;
   background-color: #fff;
