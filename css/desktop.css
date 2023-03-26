@@ -70,5 +70,61 @@
    flex-direction:row;
    align-items: stretch;
 }
+
+/* Customer */
+
+.customers {
+    padding: 120px 0 120px;
 }
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+/* Footer */
+.footer {
+    padding: 100px 0;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-about {
+    align-items: normal
+}
+
+.footer-description {
+    margin-bottom: 0;
+}
+
+.footer-social-media {
+    margin-left: 120px;
+    margin-bottom: 0;
+    align-items: normal;
+}
+
+.footer-form {
+    align-items: normal;
+    position: relative;
+    margin-left: 80px;
+}
+
+.footer-input {
+    margin-bottom: 0;
+    width: 264px;
+}
+
+
+.footer-btn {
+    position: absolute;
+    top: 37%;
+    left: 100%;
+    margin-left: 24px;
+}
+
+}
+
 
