@@ -32,6 +32,21 @@
 }
 /* Team */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  .hero {
+      text-align: center;
+      padding: 188px 316px;
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url('../images/hero/responsive-img/people-office-tab-1x.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 768px;
+      height: 436px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   .team-list {
     flex-wrap: wrap;
     justify-content: center;
@@ -44,16 +59,20 @@
   .footer-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 72px 24px;
+    padding: 0 108px;
   }
 
   .footer-about {
     display: block;
-    margin-right: 24px;
   }
-
+.footer-description {
+ 
+  margin-bottom: 0;
+}
   .footer-social-media {
     display: block;
-    margin-bottom: 72px;
+    margin-bottom: 0;
   }
   .footer-form {
     align-items: normal;
