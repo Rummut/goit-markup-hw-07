@@ -27,21 +27,23 @@
     height: 600px;
   }
 
-          @media (min-device-pixel-ratio: 2),
-          (min-resolution: 192dpi),
-          (min-resolution: 2dppx) {
-              .hero {
-                max-width: 1440px;
-                    height: 600px;
-                  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                          rgba(46, 47, 66, 0.7)),
-                      url(../images/hero/responsive-img/people-office-des-2x.jpg)
-              }
-          }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      max-width: 1440px;
+      height: 600px;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/responsive-img/people-office-des-2x.jpg);
+    }
+  }
 
   .hero-container {
-      padding: 188px 0;
-    }
+    padding: 188px 0;
+  }
 
   .about {
     padding: 120px 0;
@@ -166,4 +168,19 @@
     min-width: 408px;
     min-height: 584px;
   }
+  /* Portfolio */
+
+  .portfolio {
+    padding: 100px 0 120px 0;
+  }
+
+  .portfolio-list-btn {
+    margin-bottom: 72px;
+  }
+
+  /* Work examles */
+  .portfolio-list-examples {
+    gap: 48px 24px;
+  }
+    
 }
